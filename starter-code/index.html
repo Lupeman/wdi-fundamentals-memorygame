@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 	
- <head>
-  <title>Memory Game</title>
-  <link rel="stylesheet" type="text/css" href="style.css"
+ 	<head>
+  		<title>Memory Game</title>
+  			<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Slabo+27px" rel="stylesheet">
+    		<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  			<link rel="stylesheet" type="text/css" href="style.css"
+	</head>
 
-</head>
-<body>
-<nav class="clearfix">
-<a href="#">Instructions</a>
-<a href="#">Game</a>
-</nav>
-<header>
-<h1>Memory Game</h1>
-<h2>Instructions</h2>
-</header>
-<p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards.</p>
-<p>This game is an awesome way to train your brain and increase your brain power!</p>
-<hr>
+	<body>
+		<header>
+			<nav class = "clearfix">
+				<a href="#">Instructions</a>
+				<a href="#">Game</a>
+			</nav>
+			<div class = "Seuss_cat_title">
+				<img class = "Seuss_cat" src="Seuss_cat.png" height="300" width=auto >
+				<h1>Memory<br>Game</h1>
+			</div>
+		</header>
+		<div class = "container">
+			<div class = "yellow-box">
+				<div class = "row">
+					<div class = "col-md-2">
+						<p> <span class = "instructions">Instructions</span></p>
+					</div>
+					<div class = "col-md-5">
+						<p id = "p1">Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn.<br> The object of the game is to turn over pairs of matching cards.<br>
+						This game is an awesome way to train your brain and increase your brain power!</p>
+						<button name = "button" id = "btn"> Try Again </button>
+					</div>
+					<div class = "col-md-5">
+ 						<div class="board" id="game-board">
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+ 		</div>
+		<footer>
+			<p>&#9829;<a href="#" id = "aboutMe" >Click here</a> to find out more about <span class = "name">Jaime</span>, the creator of this totes awesome game.&#9829;</p>
+		</footer>
 
- <div class="board" id="game-board">
- <!--
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-  </div>
-  -->
-
-<footer>
-&#9829;Click <a href="#">here</a> to find out more about <span class = "name">Jaime</span>, the creator of this totes awesome game.&#9829;
-</footer>
-
-<script src="main.js"></script>
-
-</body>
+	<script src="main.js"></script>
+	</body>
 </html>
