@@ -3,7 +3,7 @@ comment. Add your CSS code
 from Unit 1 - 5 below  */
 
 body {
-	background-image: url("Seuss_paper.jpg");
+	background-image: url("Images/Seuss_paper.jpg");
 	font-family: 'Slabo 27px', serif;
 }
 /* Header styling */

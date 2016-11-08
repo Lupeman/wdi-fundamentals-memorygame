@@ -23,9 +23,9 @@ see if two cards have been selected
 var isTwoCards = function(){
 	cardsInPlay.push(this.getAttribute('data-card'));
 	if (this.getAttribute('data-card') === 'king') {
-	this.innerHTML = '<img src="Seuss_King.jpeg" class = "myImgClass" alt="King" />';	
+	this.innerHTML = '<img src="Images/Seuss_King.jpeg" class = "myImgClass" alt="King" />';	
 } else {
-	this.innerHTML = '<img src="Seuss_Queen.png" class = "myImgClass" alt="Queen" />';
+	this.innerHTML = '<img src="Images/Seuss_Queen.png" class = "myImgClass" alt="Queen" />';
 }
 	
 	if (cardsInPlay.length === 2) {
